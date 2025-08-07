@@ -1,0 +1,21 @@
+class person{
+	String name;
+	long id;
+	Person(String name,long id){
+		this.name=name;
+		this.id=id;
+	}
+}
+class Passport extends Person{
+	String personname;
+	Passport(String name,long id){
+		super(name,id);
+		this.personName=name;
+	}
+}
+public class Govagency{
+	public static void main(String args[]){
+		Passport obj=new Passport("divya",998844);
+		System.out.println(obj.personName+" is a person with a passport number:" + obj.id);
+	}
+}
