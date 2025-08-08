@@ -33,6 +33,7 @@ public class aggregation{
 		emp e2=new emp(102,"ravi","management");
 		emp e3=new emp(103,"raja","acc");
 		dept d1=new dept("me",29);
+		uni u1=new uni("hi",30);
 	}
 }
 
